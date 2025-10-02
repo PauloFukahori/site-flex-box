@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f9;
+  color: #333;
+}
+.header {
+  background: #4a90e2;
+  color: white;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu ul {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+.menu a:hover {
+  text-decoration: underline;
+}
+
+.main {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+}
+
+.content {
+  flex: 3;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.sidebar {
+  flex: 1;
+  background: #e1e8f0;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.footer {
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 20px;
+}
+
+.footer {
+  background: #333;          /* Fundo escuro */
+  color: white;              /* Texto branco */
+  text-align: center;        /* Centralizado */
+  padding: 15px;             /* Espaço interno */
+  
+  position: fixed;           /* Fixa o rodapé */
+  bottom: 0;                 /* Encosta no final da tela */
+  left: 0;                   /* Alinha à esquerda */
+  width: 100%;               /* Ocupa toda a largura */
+}
